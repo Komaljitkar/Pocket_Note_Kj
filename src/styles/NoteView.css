@@ -1,0 +1,84 @@
+.notes-container {
+  max-height: 500px;
+  overflow-y: auto;  
+  padding-right: 1px; 
+  margin-bottom: 1rem;
+}
+
+.note-view {
+  margin-bottom: 1rem;
+}
+
+.note-text {
+  margin: 0;
+  padding: 0;
+}
+
+.time-container {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+
+
+.note-view-container {
+  width: 73%;
+  margin-left: 24rem;
+  height: 80vh;
+  overflow-y: scroll;
+  max-height: 62%;
+  position: relative;
+  bottom: 9%;
+  margin-top: 4%;
+}
+
+.note-view {
+  padding: 1rem;
+  width: 90%;
+  margin-bottom: 1rem; 
+  border-radius: 8px; 
+  background-color: white;
+}
+
+.note-content {
+  width: 100%;
+}
+
+.note-text {
+  padding: 0.8rem 1rem;
+  line-height: 1.5rem;
+}
+
+.time-container {
+  text-align: right; 
+  padding: 0.5rem;
+  margin-top: 1rem; 
+}
+
+
+.time {
+  font-size: 0.9rem;
+  color: black;
+}
+
+.example-txt {
+  padding-top: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.note-view-container::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 1rem;
+  border-radius: 1rem;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+  .note-view-container {
+    width: 100%;
+    margin-left: 0;
+    height: 59%;
+    position: relative;
+    bottom: 7%;
+  }
+}
